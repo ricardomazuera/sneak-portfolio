@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="/css/tablet.css" />
+    <link rel="stylesheet" media="(max-width: 575px)" href="/css/mobile.css" />
+    <script
+      src="https://kit.fontawesome.com/6bbb3961fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/index.js"></script>
+    <title>Sneak - Simple Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <img class="header-img" src="./assets/sneak-logo.png" alt="" />
+        <ul class="nav-menu">
+          <li class="nav-item header__button-li filter-option" data-filter="">All</li>
+          <li class="nav-item header__button-li filter-option" data-filter="Branding">Branding</li>
+          <li class="header__button-li button-projects filter-option" data-filter="Web">Web</li>
+          <li class="nav-item header__button-li filter-option" data-filter="Photography">Photography</li>
+          <li class="nav-item header__button-li filter-option" data-filter="App">App</li>
+          <li class="nav-item header__button-search">
+            <i class="fa-solid fa-magnifying-glass fa-2x icon-color"></i>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+
+      </nav>
+      <div class="header_bar-search">
+        <!-- Bar Search -->
+        <form action="form-search">
+          <input
+            type="text"
+            class="form__input"
+            id="filterInput"
+            placeholder="Search"
+          />
+        </form>
+      </div>
+    </header>
+
+    <!-- Section Principal Banner -->
+    <section class="principal-banner">
+      <article class="principal-banner__container">
+        <h1>EXPLORE BEYOND HORIZON</h1>
+        <p>
+          Magna mundi referrentur quo, no rebum dignissim qui. <br />
+          Per quodsi accusata id, agam labores.
+        </p>
+        <button>VIEW OUR WORK</button>
+      </article>
+    </section>
+
+    <!-- Section Projects -->
+    <section class="section-projects">
+      <div class="section-projects__container">
+        <div>
+          <i class="fa-solid fa-grip fa-2x icon-color icon-projects"></i>
+          <i class="fa-solid fa-grip-lines fa-2x icon-color icon-projects"></i>
+        </div>
+
+        <div class="menu-container">
+          <ul class="item-menu-container">
+            <li class="header__button-li button-projects filter-option" data-filter="">All</li>
+            <li class="header__button-li button-projects filter-option" data-filter="Branding">Branding</li>
+            <li class="header__button-li button-projects filter-option" data-filter="Web">Web</li>
+            <li class="header__button-li button-projects filter-option" data-filter="Photography">Photography</li>
+            <li class="header__button-li button-projects filter-option" data-filter="App">App</li>
+          </ul>
+        </div>
+
+        <div class="projects-container"></div>
+
+        <!-- <div class="button-container">
+          <button class="projects__button">Show Me More</button>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <p>© 2022 - Sneak All Right Reserved</p>
+        <div>
+          <i class="fa-brands fa-facebook-f fa-2x icon-footer"></i>
+          <i class="fa-brands fa-instagram fa-2x icon-footer"></i>
+          <i class="fa-brands fa-twitter fa-2x icon-footer"></i>
+          <i class="fa-brands fa-tiktok fa-2x icon-footer"></i>
+          <i class="fa-brands fa-youtube fa-2x icon-footer"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

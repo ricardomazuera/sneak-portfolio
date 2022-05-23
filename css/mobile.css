@@ -1,0 +1,15 @@
+.button-projects {
+  padding: 10px 10px;
+}
+
+.projects-container {
+  grid-template-columns: repeat(1, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+
+}
