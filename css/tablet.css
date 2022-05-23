@@ -49,9 +49,11 @@
 }
 
 .header_bar-search {
+  position: initial;
   display: block;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .principal-banner {
